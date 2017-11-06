@@ -1,3 +1,5 @@
+//filetr is a method on the array object that takes another function as its argument and uses that function to filter the aray
+
 var animals = [
   { name: 'Fluffy', species: 'cat'},
   { name: 'Snowy', species: 'cat'},
@@ -33,5 +35,5 @@ var cats333 = animals.filter(isCat)
 console.log('More filter Cats..\n', cats333)
 
 // reject is opposite of filter, it is not built into the js language but is available in libraries such as underscore.js
-// var otherAnimals = animals.reject(isCat)
-//console.log('Filter Cats...\n', otherAnimals);
+var otherAnimals = animals.reject(isCat)
+console.log('Filter Cats...\n', otherAnimals);

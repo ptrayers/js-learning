@@ -1,3 +1,5 @@
+// higher order functions - functions that take other functions as their arguments
+
 // create a function as a variable
 //
 var triple = function(x) {
