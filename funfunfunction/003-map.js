@@ -9,13 +9,13 @@ var animals = [
   { name: 'Donald', species: 'Duck'},
 ]
 
-// traditional for loop to display names
+// traditional 'for loop' to display names
 var names = []
 for (var i = 0; i < animals.length; i++) {
    names.push(animals[i].name);
 }
 
-// for loop example (more code)...
+// 'for loop' example has more code...
 console.log(names)
 
 // use map to display names
